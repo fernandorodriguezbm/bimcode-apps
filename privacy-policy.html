@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- privacy-policy.html — SectionMove Pro
+     SUBIR A GITHUB PAGES:
+       1. Crear repo publico en GitHub (ej. "bimcode-apps")
+       2. Subir este archivo a la raiz del repo
+       3. Settings -> Pages -> Source: Deploy from a branch -> main / root -> Save
+       4. URL final: https://TU-USUARIO.github.io/bimcode-apps/privacy-policy.html
+       5. Pegar esa URL en:
+          - Campo "Directiva de privacidad del editor" del envio en apps.autodesk.com
+          - PLACEHOLDER_PRIVACY_URL en License/NoLicenseWindow.xaml.cs (y recompilar) -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SectionMove Pro — Privacy Policy</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 820px; margin: 40px auto;
+         padding: 0 24px; color: #222; line-height: 1.6; }
+  h1 { font-size: 1.7em; border-bottom: 2px solid #0078D4; padding-bottom: 8px; }
+  h2 { font-size: 1.2em; color: #0058A3; margin-top: 32px; }
+  .meta { color: #666; font-size: 0.95em; }
+  code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>SectionMove Pro — Privacy Policy</h1>
+<p class="meta">Publisher: BIMCode (Luis Fernando Rodriguez Coarite) &nbsp;|&nbsp; Effective date: June 10, 2026</p>
+
+<h2>1. Data the application collects and how it is used</h2>
+<p>SectionMove Pro is an add-in for Autodesk&reg; Revit&reg;. It does <strong>not</strong> collect,
+store, or transmit any personal information, project data, model data, files, or usage analytics.</p>
+<p>The only data the add-in processes is your <strong>Autodesk account user ID</strong>
+(the identifier provided by Revit as <code>LoginUserId</code>). This ID is sent exclusively to
+Autodesk's official <em>Entitlement API</em> (<code>apps.exchange.autodesk.com</code>) for one
+purpose only: to verify that your Autodesk account holds an active subscription to SectionMove Pro
+purchased through the Autodesk App Store.</p>
+<p>The result of this verification (valid / not valid, plus a timestamp) is cached locally on your
+computer, encrypted with Windows Data Protection API (DPAPI), so the add-in can keep working for up
+to 7 days without an internet connection. This cache never leaves your computer.</p>
+
+<h2>2. Third parties</h2>
+<p>The add-in shares data with only one third party: <strong>Autodesk, Inc.</strong>, which operates
+the App Store and the Entitlement API used to validate your subscription. Autodesk processes this
+data under its own privacy statement
+(<a href="https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement">
+https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement</a>), which provides at
+least the same level of protection described in this policy.</p>
+<p>Payment processing for purchases is handled entirely by Autodesk and its payment providers; the
+publisher never receives or stores your payment details. The add-in contains <strong>no</strong>
+analytics tools, advertising networks, or third-party SDKs that collect data.</p>
+
+<h2>3. Data retention and deletion</h2>
+<p>The publisher does not operate any server and therefore retains no user data. The only stored
+item is the local, encrypted license cache on your own computer, located at
+<code>%AppData%\SectionMovePro</code>. It is overwritten on each successful verification and you can
+delete it at any time by removing that folder; it is also removed when you uninstall the
+application.</p>
+
+<h2>4. Your rights — revoking consent and data deletion</h2>
+<p>Because the add-in stores no personal data on the publisher's side, no deletion request to the
+publisher is necessary: uninstalling the add-in and deleting the folder named above removes all
+locally stored data. To stop the subscription verification entirely, uninstall the add-in or cancel
+your subscription in your Autodesk Account. For data held by Autodesk (account, purchases), please
+refer to Autodesk's privacy statement linked above.</p>
+<p>For any privacy question or request, contact the publisher at
+<a href="mailto:fernando.rodriguez.bm@gmail.com">fernando.rodriguez.bm@gmail.com</a>.
+We reply within 2 business days.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the application ever changes the data it processes, this policy will be updated at this same
+URL and the effective date revised.</p>
+
+<p class="meta">Publisher page:
+<a href="https://apps.autodesk.com/en/Publisher/PublisherHomepage?ID=4YFHQJQLKWZV">
+https://apps.autodesk.com/en/Publisher/PublisherHomepage?ID=4YFHQJQLKWZV</a></p>
+
+</body>
+</html>
